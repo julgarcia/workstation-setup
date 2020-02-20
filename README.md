@@ -45,9 +45,8 @@ This is my workstation-setup for Mac only at the moment.
 34. AWS CLI
 35. Vault
 36. JQ
-37. NMap
-38. openssl
-39. TMux
+37. openssl
+38. TMux
 
 ## ToDos:
 1. Error Checking and Resolution
