@@ -36,7 +36,6 @@ function install_git() {
 
 function install_commandline_tools() {
     retry "brew install jq" 2
-    retry "brew install nmap" 2
     retry "brew install openssl" 2
     retry "brew install tmux" 2
 }
@@ -63,8 +62,6 @@ function install_cloudfoundry_tools() {
     retry "brew tap cloudfoundry/tap" 2
     retry "brew update" 2
     retry "brew install cf-cli" 2
-    retry "brew install bosh-cli" 2
-    retry "gem install cf-uaac" 2
 }
 
 function install_virtualization() {
@@ -83,7 +80,6 @@ function install_utilities() {
 }
 
 function install_other_utilities() {
-    retry "brew cask install dropbox" 2
     retry "brew cask install jxplorer" 2
     retry "brew cask install keystore-explorer" 2
     retry "brew cask install postman" 2
